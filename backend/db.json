@@ -1,0 +1,343 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin",
+      "email": "admin@fashion.com",
+      "password": "$2a$10$CHSe82CTohrzSD6W5IxnmuE9xkJr37hIYo4WuXGIE.O78Y5jLcxE.",
+      "role": "admin",
+      "avatar": "https://ui-avatars.com/api/?name=Admin&background=d4af37&color=fff",
+      "phone": "0901234567",
+      "address": "123 Admin St, Ho Chi Minh City",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "u2",
+      "name": "Nguyen Van A",
+      "email": "user@fashion.com",
+      "password": "$2a$10$jJ1.yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Nguyen+Van+A&background=6c63ff&color=fff",
+      "phone": "0912345678",
+      "address": "456 User Ave, Ha Noi",
+      "status": "active",
+      "createdAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "u3",
+      "name": "Tran Thi B",
+      "email": "tranthi@example.com",
+      "password": "$2a$10$jJ1.yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Tran+Thi+B&background=ff6584&color=fff",
+      "phone": "0923456789",
+      "address": "789 Example Rd, Da Nang",
+      "status": "active",
+      "createdAt": "2024-02-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Áo Blazer Linen Cao Cấp",
+      "category": "Áo",
+      "price": 1250000,
+      "originalPrice": 1800000,
+      "description": "Áo blazer linen cao cấp, thiết kế thanh lịch phù hợp cho công sở và dự tiệc. Chất liệu linen mềm mại, thoáng mát.",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Beige",
+        "Navy",
+        "Black"
+      ],
+      "stock": 45,
+      "rating": 4.8,
+      "reviews": 124,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "p2",
+      "name": "Váy Maxi Hoa Vintage",
+      "category": "Váy",
+      "price": 890000,
+      "originalPrice": 1200000,
+      "description": "Váy maxi họa tiết hoa vintage, dáng dài bay bổng, phù hợp đi biển hay dự tiệc ngoài trời.",
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Floral Pink",
+        "Floral Blue",
+        "Floral Yellow"
+      ],
+      "stock": 32,
+      "rating": 4.6,
+      "reviews": 89,
+      "featured": true,
+      "newArrival": true,
+      "createdAt": "2024-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "p3",
+      "name": "Quần Palazzo Lụa",
+      "category": "Quần",
+      "price": 750000,
+      "originalPrice": 950000,
+      "description": "Quần palazzo lụa cao cấp, ống rộng thời thượng, tôn dáng và thoải mái khi vận động.",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Ivory",
+        "Blush",
+        "Sage"
+      ],
+      "stock": 28,
+      "rating": 4.5,
+      "reviews": 67,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2024-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "p4",
+      "name": "Áo Sơ Mi Lụa Tay Dài",
+      "category": "Áo",
+      "price": 680000,
+      "originalPrice": 980000,
+      "description": "Áo sơ mi lụa tay dài sang trọng, thiết kế cổ V nhẹ nhàng, phù hợp nhiều dịp khác nhau.",
+      "images": [
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
+        "https://images.unsplash.com/photo-1532453288672-3a56cf9f7f04?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Champagne",
+        "Dusty Rose"
+      ],
+      "stock": 54,
+      "rating": 4.7,
+      "reviews": 156,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2024-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "p5",
+      "name": "Đầm Cocktail Nhung",
+      "category": "Đầm",
+      "price": 2100000,
+      "originalPrice": 2800000,
+      "description": "Đầm cocktail chất nhung cao cấp, thiết kế tôn dáng quyến rũ, lý tưởng cho các buổi tiệc sang trọng.",
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Midnight Black",
+        "Burgundy",
+        "Emerald"
+      ],
+      "stock": 18,
+      "rating": 4.9,
+      "reviews": 203,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2024-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "p6",
+      "name": "Set Bộ Crop Top + Chân Váy",
+      "category": "Set",
+      "price": 920000,
+      "originalPrice": 1300000,
+      "description": "Set bộ crop top kết hợp chân váy midi thời thượng, năng động mà vẫn thanh lịch.",
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Caramel",
+        "Dusty Blue",
+        "Mint"
+      ],
+      "stock": 36,
+      "rating": 4.4,
+      "reviews": 92,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2024-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "p7",
+      "name": "Túi Xách Da Thật Cao Cấp",
+      "category": "Phụ kiện",
+      "price": 3500000,
+      "originalPrice": 4200000,
+      "description": "Túi xách da thật cao cấp, đường may tinh tế, nhiều ngăn tiện dụng. Phù hợp đi làm và đi chơi.",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Cognac",
+        "Black",
+        "Nude"
+      ],
+      "stock": 12,
+      "rating": 4.8,
+      "reviews": 78,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2024-01-25T00:00:00.000Z"
+    },
+    {
+      "id": "p8",
+      "name": "Áo Khoác Trench Coat",
+      "category": "Áo khoác",
+      "price": 1850000,
+      "originalPrice": 2500000,
+      "description": "Áo khoác trench coat cổ điển, chất liệu cotton pha polyester cao cấp, phong cách và ấm áp.",
+      "images": [
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
+        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Camel",
+        "Black",
+        "Khaki"
+      ],
+      "stock": 22,
+      "rating": 4.7,
+      "reviews": 145,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2024-01-15T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord1",
+      "userId": "u2",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Áo Blazer Linen Cao Cấp",
+          "price": 1250000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Navy"
+        },
+        {
+          "productId": "p4",
+          "name": "Áo Sơ Mi Lụa Tay Dài",
+          "price": 680000,
+          "quantity": 2,
+          "size": "S",
+          "color": "White"
+        }
+      ],
+      "total": 2610000,
+      "status": "delivered",
+      "address": "456 User Ave, Ha Noi",
+      "phone": "0912345678",
+      "createdAt": "2024-03-10T08:30:00.000Z"
+    },
+    {
+      "id": "ord2",
+      "userId": "u3",
+      "items": [
+        {
+          "productId": "p5",
+          "name": "Đầm Cocktail Nhung",
+          "price": 2100000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Burgundy"
+        }
+      ],
+      "total": 2100000,
+      "status": "shipping",
+      "address": "789 Example Rd, Da Nang",
+      "phone": "0923456789",
+      "createdAt": "2024-03-14T10:00:00.000Z"
+    },
+    {
+      "id": "ord3",
+      "userId": "u2",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Túi Xách Da Thật Cao Cấp",
+          "price": 3500000,
+          "quantity": 1,
+          "size": "One Size",
+          "color": "Cognac"
+        }
+      ],
+      "total": 3500000,
+      "status": "pending",
+      "address": "456 User Ave, Ha Noi",
+      "phone": "0912345678",
+      "createdAt": "2024-03-18T14:20:00.000Z"
+    }
+  ]
+}
