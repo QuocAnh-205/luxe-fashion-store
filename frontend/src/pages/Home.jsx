@@ -28,12 +28,12 @@ const Home = () => {
   }, []);
 
   const categories = [
-    { name: 'Áo', emoji: '👚', color: '#d4af37', slug: 'Áo' },
-    { name: 'Váy', emoji: '👗', color: '#ff6584', slug: 'Váy' },
-    { name: 'Đầm', emoji: '✨', color: '#6c63ff', slug: 'Đầm' },
-    { name: 'Quần', emoji: '👖', color: '#43c6ac', slug: 'Quần' },
-    { name: 'Phụ kiện', emoji: '👜', color: '#f093fb', slug: 'Phụ kiện' },
-    { name: 'Áo Khoác', emoji: '🧥', color: '#4facfe', slug: 'Áo khoác' },
+    { name: 'Áo', emoji: <i className="fa-solid fa-shirt" />, color: '#c9a84c', slug: 'Áo' },
+    { name: 'Váy', emoji: <i className="fa-solid fa-heart" />, color: '#e879a0', slug: 'Váy' },
+    { name: 'Đầm', emoji: <i className="fa-solid fa-star" />, color: '#7c5cbf', slug: 'Đầm' },
+    { name: 'Quần', emoji: <i className="fa-solid fa-vest" />, color: '#43c6ac', slug: 'Quần' },
+    { name: 'Phụ kiện', emoji: <i className="fa-solid fa-bag-shopping" />, color: '#e879f9', slug: 'Phụ kiện' },
+    { name: 'Áo Khoác', emoji: <i className="fa-solid fa-crown" />, color: '#4a9eff', slug: 'Áo khoác' },
   ];
 
   return (
@@ -48,23 +48,26 @@ const Home = () => {
 
         <div className="container hero-content">
           <div className="hero-text">
-            <div className="hero-tag">✦ Bộ Sưu Tập 2024</div>
+            <div className="hero-tag">
+              <span className="hero-tag-dot" />
+              Bộ Sưu Tập 2026
+            </div>
             <h1 className="hero-title">
               Phong Cách <br />
               <span className="hero-gradient">Định Nghĩa</span> <br />
-              Bạn
+              Tương Lai
             </h1>
             <p className="hero-desc">
-              Khám phá thế giới thời trang cao cấp với những thiết kế 
-              tinh tế, sang trọng dành cho phụ nữ hiện đại tự tin và 
+              Khám phá thế giới thời trang cao cấp với những thiết kế
+              tinh tế, sang trọng dành cho phụ nữ hiện đại tự tin và
               đẳng cấp.
             </p>
             <div className="hero-actions">
               <Link to="/shop" className="btn btn-primary btn-lg" id="hero-shop-btn">
-                Mua Sắm Ngay →
+                Mua Sắm Ngay <i className="fa-solid fa-arrow-right" />
               </Link>
               <Link to="/shop?newArrival=true" className="btn btn-outline btn-lg">
-                Hàng Mới Về
+                Hàng Mới 2026
               </Link>
             </div>
             <div className="hero-stats">
@@ -79,7 +82,7 @@ const Home = () => {
               </div>
               <div className="stat-divider" />
               <div className="stat-item">
-                <span className="stat-number">4.9★</span>
+                <span className="stat-number">4.9<i className="fa-solid fa-star" style={{ fontSize: '0.7em', marginLeft: '4px', color: '#c9a84c' }} /></span>
                 <span className="stat-label">Đánh giá</span>
               </div>
             </div>
@@ -89,19 +92,23 @@ const Home = () => {
             <div className="hero-image-wrapper">
               <img
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
-                alt="Fashion model"
+                alt="Fashion model 2026"
                 className="hero-main-img"
               />
               {/* Floating cards */}
               <div className="floating-card card-1">
-                <span>🔥</span>
+                <div className="fc-icon fire">
+                  <i className="fa-solid fa-fire" style={{ color: '#ff6b6b' }} />
+                </div>
                 <div>
                   <p className="fc-title">Bestseller</p>
                   <p className="fc-sub">Áo Blazer Linen</p>
                 </div>
               </div>
               <div className="floating-card card-2">
-                <span>🚀</span>
+                <div className="fc-icon rocket">
+                  <i className="fa-solid fa-rocket" style={{ color: '#4dabf7' }} />
+                </div>
                 <div>
                   <p className="fc-title">Mới nhất</p>
                   <p className="fc-sub">5 sản phẩm hôm nay</p>
@@ -118,7 +125,7 @@ const Home = () => {
           <div className="section-title">
             <h2>Danh Mục Sản Phẩm</h2>
             <div className="gold-line" />
-            <p>Tìm kiếm phong cách riêng của bạn</p>
+            <p>Tìm kiếm phong cách riêng của bạn trong năm 2026</p>
           </div>
           <div className="categories-grid">
             {categories.map(cat => (
@@ -131,7 +138,7 @@ const Home = () => {
               >
                 <div className="cat-emoji">{cat.emoji}</div>
                 <h3>{cat.name}</h3>
-                <span className="cat-arrow">→</span>
+                <i className="fa-solid fa-arrow-right cat-arrow" />
               </Link>
             ))}
           </div>
@@ -163,11 +170,11 @@ const Home = () => {
         <div className="container">
           <div className="banner-content">
             <div className="banner-text">
-              <span className="banner-tag">🔥 Ưu đãi đặc biệt</span>
+              <span className="banner-tag"><i className="fa-solid fa-bolt" /> Ưu đãi đặc biệt 2026</span>
               <h2>Giảm đến 30% <br />Cho đơn hàng đầu tiên</h2>
               <p>Đăng ký thành viên ngay hôm nay và nhận ngay mã giảm giá độc quyền</p>
               <Link to="/register" className="btn btn-primary btn-lg" id="banner-register-btn">
-                Đăng ký ngay
+                Đăng ký ngay <i className="fa-solid fa-arrow-right" />
               </Link>
             </div>
             <div className="banner-visual">
@@ -205,10 +212,10 @@ const Home = () => {
         <div className="container">
           <div className="features-grid">
             {[
-              { icon: '🚚', title: 'Miễn phí vận chuyển', desc: 'Cho đơn hàng từ 500.000đ' },
-              { icon: '🔄', title: 'Đổi trả 30 ngày', desc: 'Không cần lý do' },
-              { icon: '🔒', title: 'Thanh toán an toàn', desc: 'Mã hóa SSL 256-bit' },
-              { icon: '💎', title: 'Chính hãng 100%', desc: 'Cam kết chất lượng' },
+              { icon: <i className="fa-solid fa-truck" />, title: 'Miễn phí vận chuyển', desc: 'Cho đơn hàng từ 500.000đ' },
+              { icon: <i className="fa-solid fa-rotate-right" />, title: 'Đổi trả 30 ngày', desc: 'Không cần lý do' },
+              { icon: <i className="fa-solid fa-lock" />, title: 'Thanh toán an toàn', desc: 'Mã hóa SSL 256-bit' },
+              { icon: <i className="fa-solid fa-gem" />, title: 'Chính hãng 100%', desc: 'Cam kết chất lượng' },
             ].map(f => (
               <div key={f.title} className="feature-card">
                 <div className="feature-icon">{f.icon}</div>

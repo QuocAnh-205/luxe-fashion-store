@@ -33,10 +33,10 @@ const Dashboard = () => {
   );
 
   const statCards = [
-    { icon: '👥', label: 'Người Dùng', value: stats.totalUsers, color: '#6c63ff', change: '+12% tháng này' },
-    { icon: '📦', label: 'Sản Phẩm', value: stats.totalProducts, color: '#d4af37', change: `${stats.totalProducts} danh mục` },
-    { icon: '🛒', label: 'Đơn Hàng', value: stats.totalOrders, color: '#4ade80', change: `${stats.pendingOrders} đang chờ` },
-    { icon: '💰', label: 'Doanh Thu', value: formatPrice(stats.totalRevenue), color: '#f093fb', change: '+8% so với tháng trước' },
+    { icon: <i className="fa-solid fa-users"></i>, label: 'Người Dùng', value: stats.totalUsers, color: '#6c63ff', change: '+12% tháng này' },
+    { icon: <i className="fa-solid fa-box"></i>, label: 'Sản Phẩm', value: stats.totalProducts, color: '#d4af37', change: `${stats.totalProducts} danh mục` },
+    { icon: <i className="fa-solid fa-cart-shopping"></i>, label: 'Đơn Hàng', value: stats.totalOrders, color: '#4ade80', change: `${stats.pendingOrders} đang chờ` },
+    { icon: <i className="fa-solid fa-money-bill-wave"></i>, label: 'Doanh Thu', value: formatPrice(stats.totalRevenue), color: '#f093fb', change: '+8% so với tháng trước' },
   ];
 
   return (
@@ -68,7 +68,7 @@ const Dashboard = () => {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, marginBottom: 24 }}>
           <div className="admin-table-wrapper">
             <div className="admin-table-header">
-              <h3>📋 Trạng Thái Đơn Hàng</h3>
+              <h3><i className="fa-solid fa-clipboard-list"></i> Trạng Thái Đơn Hàng</h3>
             </div>
             <div style={{ padding: '16px 24px', display: 'flex', flexDirection: 'column', gap: 14 }}>
               {[
@@ -91,7 +91,7 @@ const Dashboard = () => {
 
           <div className="admin-table-wrapper">
             <div className="admin-table-header">
-              <h3>🏆 Sản Phẩm Bán Chạy</h3>
+              <h3><i className="fa-solid fa-trophy"></i> Sản Phẩm Bán Chạy</h3>
             </div>
             <div style={{ overflowY: 'auto', maxHeight: 240 }}>
               {stats.topProducts?.map((p, i) => (
@@ -105,7 +105,7 @@ const Dashboard = () => {
                     <p style={{ fontSize: 13, fontWeight: 500 }}>{p.name}</p>
                     <p style={{ fontSize: 11, color: 'var(--text-muted)' }}>{p.reviews} đánh giá</p>
                   </div>
-                  <span style={{ color: 'var(--gold)', fontSize: 13, fontWeight: 600 }}>★ {p.rating}</span>
+                  <span style={{ color: 'var(--gold)', fontSize: 13, fontWeight: 600 }}><i className="fa-solid fa-star" style={{fontSize: 10}}></i> {p.rating}</span>
                 </div>
               ))}
             </div>
@@ -115,7 +115,7 @@ const Dashboard = () => {
         {/* Recent Orders */}
         <div className="admin-table-wrapper">
           <div className="admin-table-header">
-            <h3>📦 Đơn Hàng Gần Đây</h3>
+            <h3><i className="fa-solid fa-box"></i> Đơn Hàng Gần Đây</h3>
             <a href="/admin/orders" className="btn btn-outline btn-sm">Xem tất cả</a>
           </div>
           <div className="table-wrapper">

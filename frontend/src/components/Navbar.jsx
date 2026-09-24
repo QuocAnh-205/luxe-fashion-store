@@ -42,7 +42,9 @@ const Navbar = () => {
       <div className="navbar-inner">
         {/* Logo */}
         <Link to="/" className="navbar-logo">
-          <span className="logo-icon">✦</span>
+          <div className="logo-icon-wrap">
+            <i className="fa-solid fa-gem" />
+          </div>
           <span className="logo-text">LUXE</span>
         </Link>
 
@@ -69,7 +71,7 @@ const Navbar = () => {
             id="cart-btn"
             aria-label="Giỏ hàng"
           >
-            🛍️
+            <i className="fa-solid fa-bag-shopping" />
             {totalItems > 0 && (
               <span className="cart-badge">{totalItems}</span>
             )}
@@ -85,7 +87,7 @@ const Navbar = () => {
               >
                 <img src={user.avatar} alt={user.name} className="user-avatar" />
                 <span className="user-name-short">{user.name.split(' ')[0]}</span>
-                <span className="chevron">{userMenuOpen ? '▴' : '▾'}</span>
+                <i className={`fa-solid fa-chevron-${userMenuOpen ? 'up' : 'down'} chevron`} />
               </button>
 
               {userMenuOpen && (
@@ -98,16 +100,16 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div className="dropdown-divider" />
-                  <Link to="/profile" className="dropdown-item">👤 Tài khoản</Link>
-                  <Link to="/orders" className="dropdown-item">📦 Đơn hàng</Link>
+                  <Link to="/profile" className="dropdown-item"><i className="fa-regular fa-user" /> Tài khoản</Link>
+                  <Link to="/orders" className="dropdown-item"><i className="fa-solid fa-box" /> Đơn hàng</Link>
                   {isAdmin && (
                     <>
                       <div className="dropdown-divider" />
-                      <Link to="/admin" className="dropdown-item admin-item">⚙️ Admin Panel</Link>
+                      <Link to="/admin" className="dropdown-item admin-item"><i className="fa-solid fa-gear" /> Admin Panel</Link>
                     </>
                   )}
                   <div className="dropdown-divider" />
-                  <button className="dropdown-item danger" onClick={handleLogout}>🚪 Đăng xuất</button>
+                  <button className="dropdown-item danger" onClick={handleLogout}><i className="fa-solid fa-arrow-right-from-bracket" /> Đăng xuất</button>
                 </div>
               )}
             </div>

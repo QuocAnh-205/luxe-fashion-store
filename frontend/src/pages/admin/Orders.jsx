@@ -8,10 +8,10 @@ const formatPrice = (p) =>
 const formatDate = (d) => new Date(d).toLocaleDateString('vi-VN');
 
 const statusConfig = {
-  pending: { label: 'Chờ xử lý', badge: 'badge-gold', icon: '⏳' },
-  shipping: { label: 'Đang giao', badge: 'badge-blue', icon: '🚚' },
-  delivered: { label: 'Đã giao', badge: 'badge-green', icon: '✓' },
-  cancelled: { label: 'Đã hủy', badge: 'badge-red', icon: '✕' },
+  pending: { label: 'Chờ xử lý', badge: 'badge-gold', icon: <i className="fa-solid fa-hourglass-half"></i> },
+  shipping: { label: 'Đang giao', badge: 'badge-blue', icon: <i className="fa-solid fa-truck"></i> },
+  delivered: { label: 'Đã giao', badge: 'badge-green', icon: <i className="fa-solid fa-check"></i> },
+  cancelled: { label: 'Đã hủy', badge: 'badge-red', icon: <i className="fa-solid fa-xmark"></i> },
 };
 
 const Orders = () => {
@@ -47,7 +47,7 @@ const Orders = () => {
     <AdminLayout>
       {toast && (
         <div className="toast-container">
-          <div className="toast success"><span>✓ {toast}</span></div>
+          <div className="toast success"><span><i className="fa-solid fa-check"></i> {toast}</span></div>
         </div>
       )}
 
@@ -69,7 +69,7 @@ const Orders = () => {
                 onClick={() => setFilterStatus(s)}
                 id={`order-filter-${s || 'all'}`}
               >
-                {s ? statusConfig[s].icon + ' ' + statusConfig[s].label : '🔘 Tất cả'}
+                {s ? <>{statusConfig[s].icon} {statusConfig[s].label}</> : <><i className="fa-solid fa-circle-dot"></i> Tất cả</>}
               </button>
             ))}
           </div>
@@ -145,7 +145,7 @@ const Orders = () => {
             <div className="admin-table-wrapper" style={{ height: 'fit-content', position: 'sticky', top: 24 }}>
               <div className="admin-table-header">
                 <h3>Chi tiết đơn hàng</h3>
-                <button className="btn btn-ghost btn-sm" onClick={() => setSelectedOrder(null)}>✕</button>
+                <button className="btn btn-ghost btn-sm" onClick={() => setSelectedOrder(null)}><i className="fa-solid fa-xmark"></i></button>
               </div>
               <div style={{ padding: 20 }}>
                 <div style={{ marginBottom: 16 }}>
@@ -155,7 +155,7 @@ const Orders = () => {
                 <div style={{ marginBottom: 16 }}>
                   <p style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 4 }}>Địa chỉ giao hàng:</p>
                   <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>{selectedOrder.address}</p>
-                  <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>📞 {selectedOrder.phone}</p>
+                  <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}><i className="fa-solid fa-phone"></i> {selectedOrder.phone}</p>
                 </div>
                 <div>
                   <p style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 10 }}>Danh sách sản phẩm:</p>

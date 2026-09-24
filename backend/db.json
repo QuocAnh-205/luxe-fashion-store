@@ -40,304 +40,1068 @@
   "products": [
     {
       "id": "p1",
-      "name": "Áo Blazer Linen Cao Cấp",
+      "name": "Áo Thời Trang Cấp Độ 1",
       "category": "Áo",
-      "price": 1250000,
-      "originalPrice": 1800000,
-      "description": "Áo blazer linen cao cấp, thiết kế thanh lịch phù hợp cho công sở và dự tiệc. Chất liệu linen mềm mại, thoáng mát.",
+      "price": 2200000,
+      "originalPrice": 2600000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
       "images": [
-        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80",
-        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
+        "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80",
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80"
       ],
       "sizes": [
-        "XS",
         "S",
         "M",
         "L",
         "XL"
       ],
       "colors": [
-        "Beige",
-        "Navy",
-        "Black"
+        "Black",
+        "White",
+        "Beige"
       ],
-      "stock": 45,
-      "rating": 4.8,
+      "stock": 33,
+      "rating": "4.7",
       "reviews": 124,
       "featured": true,
       "newArrival": false,
-      "createdAt": "2024-01-10T00:00:00.000Z"
+      "createdAt": "2026-08-08T08:45:45.324Z"
     },
     {
       "id": "p2",
-      "name": "Váy Maxi Hoa Vintage",
+      "name": "Áo Thời Trang Cấp Độ 2",
+      "category": "Áo",
+      "price": 2000000,
+      "originalPrice": 2300000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 12,
+      "rating": "4.6",
+      "reviews": 62,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2026-06-02T13:20:30.408Z"
+    },
+    {
+      "id": "p3",
+      "name": "Áo Thời Trang Cấp Độ 3",
+      "category": "Áo",
+      "price": 1800000,
+      "originalPrice": 2100000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 22,
+      "rating": "4.0",
+      "reviews": 156,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-05-29T18:59:40.842Z"
+    },
+    {
+      "id": "p4",
+      "name": "Áo Thời Trang Cấp Độ 4",
+      "category": "Áo",
+      "price": 1400000,
+      "originalPrice": 1700000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 14,
+      "rating": "4.8",
+      "reviews": 133,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-09-16T15:28:00.192Z"
+    },
+    {
+      "id": "p5",
+      "name": "Áo Thời Trang Cấp Độ 5",
+      "category": "Áo",
+      "price": 1800000,
+      "originalPrice": 2000000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 27,
+      "rating": "4.9",
+      "reviews": 190,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-07-27T11:04:03.337Z"
+    },
+    {
+      "id": "p6",
+      "name": "Áo Thời Trang Cấp Độ 6",
+      "category": "Áo",
+      "price": 1200000,
+      "originalPrice": 1700000,
+      "description": "Sản phẩm áo cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80",
+        "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 43,
+      "rating": "4.8",
+      "reviews": 170,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-08-23T14:45:21.818Z"
+    },
+    {
+      "id": "p7",
+      "name": "Váy Thời Trang Cấp Độ 1",
       "category": "Váy",
-      "price": 890000,
-      "originalPrice": 1200000,
-      "description": "Váy maxi họa tiết hoa vintage, dáng dài bay bổng, phù hợp đi biển hay dự tiệc ngoài trời.",
+      "price": 1700000,
+      "originalPrice": 2000000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1532453288672-3a56cf9f7f04?w=600&q=80",
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 48,
+      "rating": "4.3",
+      "reviews": 46,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2026-06-24T21:56:03.684Z"
+    },
+    {
+      "id": "p8",
+      "name": "Váy Thời Trang Cấp Độ 2",
+      "category": "Váy",
+      "price": 900000,
+      "originalPrice": 1100000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
       "images": [
         "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
         "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80"
       ],
       "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
-      "colors": [
-        "Floral Pink",
-        "Floral Blue",
-        "Floral Yellow"
-      ],
-      "stock": 32,
-      "rating": 4.6,
-      "reviews": 89,
-      "featured": true,
-      "newArrival": true,
-      "createdAt": "2024-02-01T00:00:00.000Z"
-    },
-    {
-      "id": "p3",
-      "name": "Quần Palazzo Lụa",
-      "category": "Quần",
-      "price": 750000,
-      "originalPrice": 950000,
-      "description": "Quần palazzo lụa cao cấp, ống rộng thời thượng, tôn dáng và thoải mái khi vận động.",
-      "images": [
-        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80",
-        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
-      ],
-      "sizes": [
-        "XS",
         "S",
         "M",
         "L",
         "XL"
       ],
       "colors": [
-        "Ivory",
-        "Blush",
-        "Sage"
+        "Black",
+        "White",
+        "Beige"
       ],
-      "stock": 28,
-      "rating": 4.5,
-      "reviews": 67,
+      "stock": 39,
+      "rating": "4.7",
+      "reviews": 133,
       "featured": false,
       "newArrival": true,
-      "createdAt": "2024-02-10T00:00:00.000Z"
+      "createdAt": "2026-07-19T11:21:35.280Z"
     },
     {
-      "id": "p4",
-      "name": "Áo Sơ Mi Lụa Tay Dài",
-      "category": "Áo",
-      "price": 680000,
-      "originalPrice": 980000,
-      "description": "Áo sơ mi lụa tay dài sang trọng, thiết kế cổ V nhẹ nhàng, phù hợp nhiều dịp khác nhau.",
+      "id": "p9",
+      "name": "Váy Thời Trang Cấp Độ 3",
+      "category": "Váy",
+      "price": 500000,
+      "originalPrice": 700000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
       "images": [
-        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
-        "https://images.unsplash.com/photo-1532453288672-3a56cf9f7f04?w=600&q=80"
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+        "https://images.unsplash.com/photo-1582142407894-ec85a1260a46?w=600&q=80"
       ],
       "sizes": [
-        "XS",
         "S",
         "M",
         "L",
-        "XL",
-        "XXL"
+        "XL"
       ],
       "colors": [
+        "Black",
         "White",
-        "Champagne",
-        "Dusty Rose"
+        "Beige"
       ],
-      "stock": 54,
-      "rating": 4.7,
-      "reviews": 156,
-      "featured": true,
+      "stock": 34,
+      "rating": "4.3",
+      "reviews": 207,
+      "featured": false,
       "newArrival": false,
-      "createdAt": "2024-01-20T00:00:00.000Z"
+      "createdAt": "2026-06-01T21:44:37.857Z"
     },
     {
-      "id": "p5",
-      "name": "Đầm Cocktail Nhung",
+      "id": "p10",
+      "name": "Váy Thời Trang Cấp Độ 4",
+      "category": "Váy",
+      "price": 1000000,
+      "originalPrice": 1400000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1582142407894-ec85a1260a46?w=600&q=80",
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 18,
+      "rating": "4.0",
+      "reviews": 161,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-08-13T22:03:05.303Z"
+    },
+    {
+      "id": "p11",
+      "name": "Váy Thời Trang Cấp Độ 5",
+      "category": "Váy",
+      "price": 2200000,
+      "originalPrice": 2700000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80",
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 53,
+      "rating": "4.6",
+      "reviews": 64,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-05-27T13:02:42.071Z"
+    },
+    {
+      "id": "p12",
+      "name": "Váy Thời Trang Cấp Độ 6",
+      "category": "Váy",
+      "price": 2000000,
+      "originalPrice": 2500000,
+      "description": "Sản phẩm váy cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 18,
+      "rating": "4.6",
+      "reviews": 37,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-05-25T20:36:38.637Z"
+    },
+    {
+      "id": "p13",
+      "name": "Đầm Thời Trang Cấp Độ 1",
       "category": "Đầm",
       "price": 2100000,
-      "originalPrice": 2800000,
-      "description": "Đầm cocktail chất nhung cao cấp, thiết kế tôn dáng quyến rũ, lý tưởng cho các buổi tiệc sang trọng.",
+      "originalPrice": 2500000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
       "images": [
         "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80",
         "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80"
       ],
       "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
-      "colors": [
-        "Midnight Black",
-        "Burgundy",
-        "Emerald"
-      ],
-      "stock": 18,
-      "rating": 4.9,
-      "reviews": 203,
-      "featured": true,
-      "newArrival": false,
-      "createdAt": "2024-01-05T00:00:00.000Z"
-    },
-    {
-      "id": "p6",
-      "name": "Set Bộ Crop Top + Chân Váy",
-      "category": "Set",
-      "price": 920000,
-      "originalPrice": 1300000,
-      "description": "Set bộ crop top kết hợp chân váy midi thời thượng, năng động mà vẫn thanh lịch.",
-      "images": [
-        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
-        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80"
-      ],
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
-      "colors": [
-        "Caramel",
-        "Dusty Blue",
-        "Mint"
-      ],
-      "stock": 36,
-      "rating": 4.4,
-      "reviews": 92,
-      "featured": false,
-      "newArrival": true,
-      "createdAt": "2024-03-01T00:00:00.000Z"
-    },
-    {
-      "id": "p7",
-      "name": "Túi Xách Da Thật Cao Cấp",
-      "category": "Phụ kiện",
-      "price": 3500000,
-      "originalPrice": 4200000,
-      "description": "Túi xách da thật cao cấp, đường may tinh tế, nhiều ngăn tiện dụng. Phù hợp đi làm và đi chơi.",
-      "images": [
-        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
-      ],
-      "sizes": [
-        "One Size"
-      ],
-      "colors": [
-        "Cognac",
-        "Black",
-        "Nude"
-      ],
-      "stock": 12,
-      "rating": 4.8,
-      "reviews": 78,
-      "featured": true,
-      "newArrival": false,
-      "createdAt": "2024-01-25T00:00:00.000Z"
-    },
-    {
-      "id": "p8",
-      "name": "Áo Khoác Trench Coat",
-      "category": "Áo khoác",
-      "price": 1850000,
-      "originalPrice": 2500000,
-      "description": "Áo khoác trench coat cổ điển, chất liệu cotton pha polyester cao cấp, phong cách và ấm áp.",
-      "images": [
-        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
-        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
-      ],
-      "sizes": [
-        "XS",
         "S",
         "M",
         "L",
         "XL"
       ],
       "colors": [
-        "Camel",
         "Black",
-        "Khaki"
+        "White",
+        "Beige"
       ],
-      "stock": 22,
-      "rating": 4.7,
-      "reviews": 145,
+      "stock": 44,
+      "rating": "4.5",
+      "reviews": 120,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2026-09-07T19:56:49.880Z"
+    },
+    {
+      "id": "p14",
+      "name": "Đầm Thời Trang Cấp Độ 2",
+      "category": "Đầm",
+      "price": 700000,
+      "originalPrice": 1200000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 37,
+      "rating": "4.1",
+      "reviews": 90,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2026-09-12T04:11:05.993Z"
+    },
+    {
+      "id": "p15",
+      "name": "Đầm Thời Trang Cấp Độ 3",
+      "category": "Đầm",
+      "price": 1300000,
+      "originalPrice": 1800000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 32,
+      "rating": "4.7",
+      "reviews": 112,
       "featured": false,
       "newArrival": false,
-      "createdAt": "2024-01-15T00:00:00.000Z"
+      "createdAt": "2026-06-07T00:39:13.673Z"
+    },
+    {
+      "id": "p16",
+      "name": "Đầm Thời Trang Cấp Độ 4",
+      "category": "Đầm",
+      "price": 600000,
+      "originalPrice": 800000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 25,
+      "rating": "4.6",
+      "reviews": 71,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-05-31T20:22:49.823Z"
+    },
+    {
+      "id": "p17",
+      "name": "Đầm Thời Trang Cấp Độ 5",
+      "category": "Đầm",
+      "price": 1400000,
+      "originalPrice": 1900000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ab9?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 45,
+      "rating": "4.1",
+      "reviews": 13,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-07-06T08:02:15.493Z"
+    },
+    {
+      "id": "p18",
+      "name": "Đầm Thời Trang Cấp Độ 6",
+      "category": "Đầm",
+      "price": 500000,
+      "originalPrice": 700000,
+      "description": "Sản phẩm đầm cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 53,
+      "rating": "4.5",
+      "reviews": 88,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-05-26T22:43:21.531Z"
+    },
+    {
+      "id": "p19",
+      "name": "Quần Thời Trang Cấp Độ 1",
+      "category": "Quần",
+      "price": 2200000,
+      "originalPrice": 2800000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 21,
+      "rating": "4.1",
+      "reviews": 17,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2026-09-15T14:31:52.423Z"
+    },
+    {
+      "id": "p20",
+      "name": "Quần Thời Trang Cấp Độ 2",
+      "category": "Quần",
+      "price": 1400000,
+      "originalPrice": 1700000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+        "https://images.unsplash.com/photo-1555529733-0e670560f7e1?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 46,
+      "rating": "4.0",
+      "reviews": 141,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2026-07-25T20:09:45.142Z"
+    },
+    {
+      "id": "p21",
+      "name": "Quần Thời Trang Cấp Độ 3",
+      "category": "Quần",
+      "price": 600000,
+      "originalPrice": 800000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1555529733-0e670560f7e1?w=600&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 39,
+      "rating": "4.5",
+      "reviews": 189,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-08-02T05:38:46.500Z"
+    },
+    {
+      "id": "p22",
+      "name": "Quần Thời Trang Cấp Độ 4",
+      "category": "Quần",
+      "price": 1500000,
+      "originalPrice": 1800000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 23,
+      "rating": "4.5",
+      "reviews": 177,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-08-14T07:58:06.657Z"
+    },
+    {
+      "id": "p23",
+      "name": "Quần Thời Trang Cấp Độ 5",
+      "category": "Quần",
+      "price": 2300000,
+      "originalPrice": 2600000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80",
+        "https://images.unsplash.com/photo-1532453288672-3a56cf9f7f04?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 31,
+      "rating": "4.2",
+      "reviews": 157,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-06-08T19:15:25.152Z"
+    },
+    {
+      "id": "p24",
+      "name": "Quần Thời Trang Cấp Độ 6",
+      "category": "Quần",
+      "price": 2200000,
+      "originalPrice": 2700000,
+      "description": "Sản phẩm quần cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 41,
+      "rating": "4.8",
+      "reviews": 54,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-09-15T06:47:19.003Z"
+    },
+    {
+      "id": "p25",
+      "name": "Phụ kiện Thời Trang Cấp Độ 1",
+      "category": "Phụ kiện",
+      "price": 1500000,
+      "originalPrice": 2000000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 24,
+      "rating": "4.7",
+      "reviews": 85,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2026-08-12T05:30:31.339Z"
+    },
+    {
+      "id": "p26",
+      "name": "Phụ kiện Thời Trang Cấp Độ 2",
+      "category": "Phụ kiện",
+      "price": 800000,
+      "originalPrice": 1400000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 37,
+      "rating": "4.2",
+      "reviews": 207,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2026-06-11T20:30:08.127Z"
+    },
+    {
+      "id": "p27",
+      "name": "Phụ kiện Thời Trang Cấp Độ 3",
+      "category": "Phụ kiện",
+      "price": 600000,
+      "originalPrice": 1000000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&q=80",
+        "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 17,
+      "rating": "4.4",
+      "reviews": 160,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-07-26T14:28:07.575Z"
+    },
+    {
+      "id": "p28",
+      "name": "Phụ kiện Thời Trang Cấp Độ 4",
+      "category": "Phụ kiện",
+      "price": 1300000,
+      "originalPrice": 1700000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=600&q=80",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 42,
+      "rating": "4.3",
+      "reviews": 181,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-08-21T19:03:54.177Z"
+    },
+    {
+      "id": "p29",
+      "name": "Phụ kiện Thời Trang Cấp Độ 5",
+      "category": "Phụ kiện",
+      "price": 600000,
+      "originalPrice": 900000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80",
+        "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 26,
+      "rating": "4.2",
+      "reviews": 22,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-07-08T14:48:47.896Z"
+    },
+    {
+      "id": "p30",
+      "name": "Phụ kiện Thời Trang Cấp Độ 6",
+      "category": "Phụ kiện",
+      "price": 1100000,
+      "originalPrice": 1400000,
+      "description": "Sản phẩm phụ kiện cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 28,
+      "rating": "4.5",
+      "reviews": 201,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-09-05T23:03:37.565Z"
+    },
+    {
+      "id": "p31",
+      "name": "Áo khoác Thời Trang Cấp Độ 1",
+      "category": "Áo khoác",
+      "price": 1200000,
+      "originalPrice": 1500000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
+        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 49,
+      "rating": "4.3",
+      "reviews": 116,
+      "featured": true,
+      "newArrival": false,
+      "createdAt": "2026-08-03T01:44:36.156Z"
+    },
+    {
+      "id": "p32",
+      "name": "Áo khoác Thời Trang Cấp Độ 2",
+      "category": "Áo khoác",
+      "price": 1100000,
+      "originalPrice": 1600000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+        "https://images.unsplash.com/photo-1559551409-dadc959f76b8?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 30,
+      "rating": "4.2",
+      "reviews": 139,
+      "featured": false,
+      "newArrival": true,
+      "createdAt": "2026-07-29T20:32:52.301Z"
+    },
+    {
+      "id": "p33",
+      "name": "Áo khoác Thời Trang Cấp Độ 3",
+      "category": "Áo khoác",
+      "price": 1800000,
+      "originalPrice": 2400000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1559551409-dadc959f76b8?w=600&q=80",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 32,
+      "rating": "4.3",
+      "reviews": 29,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-07-12T20:00:26.615Z"
+    },
+    {
+      "id": "p34",
+      "name": "Áo khoác Thời Trang Cấp Độ 4",
+      "category": "Áo khoác",
+      "price": 1600000,
+      "originalPrice": 2200000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 24,
+      "rating": "4.1",
+      "reviews": 208,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-09-16T06:28:21.022Z"
+    },
+    {
+      "id": "p35",
+      "name": "Áo khoác Thời Trang Cấp Độ 5",
+      "category": "Áo khoác",
+      "price": 2300000,
+      "originalPrice": 2700000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 33,
+      "rating": "4.3",
+      "reviews": 114,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-09-11T00:11:01.973Z"
+    },
+    {
+      "id": "p36",
+      "name": "Áo khoác Thời Trang Cấp Độ 6",
+      "category": "Áo khoác",
+      "price": 2200000,
+      "originalPrice": 2800000,
+      "description": "Sản phẩm áo khoác cao cấp thiết kế độc quyền, chất liệu tốt, phù hợp mọi hoàn cảnh. Mang lại sự tự tin và thoải mái cho người mặc.",
+      "images": [
+        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Beige"
+      ],
+      "stock": 31,
+      "rating": "4.0",
+      "reviews": 37,
+      "featured": false,
+      "newArrival": false,
+      "createdAt": "2026-06-28T12:56:02.616Z"
     }
   ],
   "orders": [
     {
-      "id": "ord1",
+      "id": "a7c22749-c97d-4078-87dd-a30bf04c62d8",
       "userId": "u2",
       "items": [
         {
-          "productId": "p1",
-          "name": "Áo Blazer Linen Cao Cấp",
-          "price": 1250000,
-          "quantity": 1,
-          "size": "M",
-          "color": "Navy"
-        },
-        {
-          "productId": "p4",
-          "name": "Áo Sơ Mi Lụa Tay Dài",
-          "price": 680000,
-          "quantity": 2,
-          "size": "S",
-          "color": "White"
-        }
-      ],
-      "total": 2610000,
-      "status": "delivered",
-      "address": "456 User Ave, Ha Noi",
-      "phone": "0912345678",
-      "createdAt": "2024-03-10T08:30:00.000Z"
-    },
-    {
-      "id": "ord2",
-      "userId": "u3",
-      "items": [
-        {
-          "productId": "p5",
-          "name": "Đầm Cocktail Nhung",
+          "productId": "p13",
+          "name": "Đầm Thời Trang Cấp Độ 1",
           "price": 2100000,
           "quantity": 1,
-          "size": "M",
-          "color": "Burgundy"
+          "size": "S",
+          "color": "Black"
         }
       ],
       "total": 2100000,
-      "status": "shipping",
-      "address": "789 Example Rd, Da Nang",
-      "phone": "0923456789",
-      "createdAt": "2024-03-14T10:00:00.000Z"
-    },
-    {
-      "id": "ord3",
-      "userId": "u2",
-      "items": [
-        {
-          "productId": "p7",
-          "name": "Túi Xách Da Thật Cao Cấp",
-          "price": 3500000,
-          "quantity": 1,
-          "size": "One Size",
-          "color": "Cognac"
-        }
-      ],
-      "total": 3500000,
       "status": "pending",
       "address": "456 User Ave, Ha Noi",
       "phone": "0912345678",
-      "createdAt": "2024-03-18T14:20:00.000Z"
+      "createdAt": "2026-09-24T18:26:05.901Z"
     }
   ]
 }

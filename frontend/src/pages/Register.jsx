@@ -61,21 +61,34 @@ const Register = () => {
       <div className="auth-container">
         {/* Left Panel */}
         <div className="auth-left">
-          <Link to="/" className="auth-logo">✦ LUXE</Link>
+          <Link to="/" className="auth-logo">
+            <div className="auth-logo-icon"><i className="fa-solid fa-gem" /></div>
+            <span className="auth-logo-text">LUXE</span>
+          </Link>
           <div className="auth-left-content">
-            <h2>Gia nhập cộng đồng LUXE</h2>
-            <p>Đăng ký để nhận ngay ưu đãi 10% cho đơn hàng đầu tiên</p>
+            <h2>Gia nhập cộng đồng LUXE 2026</h2>
+            <p>Đăng ký để nhận ngay ưu đãi 10% cho đơn hàng đầu tiên của bạn</p>
             <div className="auth-features">
-              <div className="auth-feat">✦ Giảm 10% đơn hàng đầu tiên</div>
-              <div className="auth-feat">✦ Miễn phí vận chuyển VIP</div>
-              <div className="auth-feat">✦ Truy cập hàng mới sớm nhất</div>
+              <div className="auth-feat">
+                <div className="auth-feat-icon"><i className="fa-solid fa-percent" /></div>
+                Giảm 10% đơn hàng đầu tiên
+              </div>
+              <div className="auth-feat">
+                <div className="auth-feat-icon"><i className="fa-solid fa-truck" /></div>
+                Miễn phí vận chuyển VIP
+              </div>
+              <div className="auth-feat">
+                <div className="auth-feat-icon"><i className="fa-solid fa-bolt" /></div>
+                Truy cập hàng mới 2026 sớm nhất
+              </div>
             </div>
           </div>
           <img
             src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80"
-            alt="Fashion"
+            alt="Fashion 2026"
             className="auth-left-img"
           />
+
         </div>
 
         {/* Right Form */}
@@ -88,7 +101,7 @@ const Register = () => {
 
             {error && (
               <div className="auth-error">
-                <span>⚠️</span> {error}
+                <i className="fa-solid fa-triangle-exclamation"></i> {error}
               </div>
             )}
 
@@ -139,7 +152,7 @@ const Register = () => {
                     onClick={() => setShowPass(!showPass)}
                     id="toggle-reg-password"
                   >
-                    {showPass ? '🙈' : '👁️'}
+                    {showPass ? <i className="fa-solid fa-eye-slash"></i> : <i className="fa-solid fa-eye"></i>}
                   </button>
                 </div>
                 {form.password && (
@@ -169,7 +182,7 @@ const Register = () => {
                   onChange={handleChange}
                 />
                 {form.confirmPassword && form.password !== form.confirmPassword && (
-                  <p className="form-error">⚠ Mật khẩu không khớp</p>
+                  <p className="form-error"><i className="fa-solid fa-triangle-exclamation"></i> Mật khẩu không khớp</p>
                 )}
               </div>
 
@@ -188,7 +201,7 @@ const Register = () => {
                 id="register-submit"
               >
                 {loading ? (
-                  <><span className="btn-spinner" /> Đang tạo tài khoản...</>
+                  <><i className="fa-solid fa-spinner fa-spin"></i> Đang tạo tài khoản...</>
                 ) : (
                   'Tạo Tài Khoản →'
                 )}

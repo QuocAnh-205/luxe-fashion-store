@@ -1,29 +1,49 @@
+/* Shop Page 2026 */
 .shop-header {
-  padding: 60px 0 40px;
-  background: linear-gradient(to bottom, rgba(212,175,55,0.05), transparent);
+  padding: 64px 0 44px;
+  background: linear-gradient(to bottom,
+    rgba(201,168,76,0.05) 0%,
+    rgba(124,92,191,0.03) 50%,
+    transparent 100%);
   border-bottom: 1px solid var(--border);
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.shop-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), var(--violet-light), transparent);
+  opacity: 0.4;
 }
 
 .shop-title {
-  font-size: 42px;
-  background: linear-gradient(135deg, var(--text-primary), var(--gold-light));
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 48px);
+  background: linear-gradient(135deg, var(--text-primary) 30%, var(--gold-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .shop-subtitle {
+  font-family: var(--font-body);
   color: var(--text-muted);
   font-size: 16px;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .shop-search {
   display: flex;
   gap: 12px;
-  max-width: 560px;
+  max-width: 580px;
   margin: 0 auto;
 }
 
@@ -31,50 +51,54 @@
   flex: 1;
   background: var(--glass);
   border: 1px solid var(--glass-border);
-  border-radius: 12px;
-  padding: 14px 20px;
+  border-radius: var(--radius-md);
+  padding: 14px 22px;
   color: var(--text-primary);
+  font-family: var(--font-body);
   font-size: 15px;
   transition: var(--transition);
 }
 
 .search-input::placeholder { color: var(--text-muted); }
+
 .search-input:focus {
   border-color: var(--gold);
   outline: none;
-  box-shadow: 0 0 0 3px rgba(212,175,55,0.1);
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  background: rgba(201,168,76,0.03);
 }
 
 .search-btn { flex-shrink: 0; }
 
-/* Layout */
+/* ── Layout ── */
 .shop-layout {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 250px 1fr;
   gap: 32px;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 44px;
+  padding-bottom: 90px;
   align-items: start;
 }
 
-/* Sidebar */
+/* ── Sidebar ── */
 .filter-sidebar {
   position: sticky;
   top: calc(var(--nav-height) + 24px);
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 24px;
+  border-radius: var(--radius-lg);
+  padding: 26px;
   display: flex;
   flex-direction: column;
   gap: 28px;
+  backdrop-filter: blur(10px);
 }
 
 .filter-title {
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 14px;
@@ -91,25 +115,41 @@
   width: 100%;
   text-align: left;
   padding: 9px 14px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
   font-size: 14px;
   color: var(--text-secondary);
   background: transparent;
   border: none;
   cursor: pointer;
   transition: var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-btn::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: background var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .filter-btn:hover {
-  background: var(--glass);
+  background: var(--glass-md);
   color: var(--text-primary);
 }
 
 .filter-btn.active {
   background: var(--glass-gold);
   color: var(--gold);
-  font-weight: 500;
+  font-weight: 600;
 }
+
+.filter-btn.active::before { background: var(--gold); }
 
 .price-range {
   display: flex;
@@ -120,19 +160,26 @@
 .price-input { flex: 1; font-size: 13px; }
 .price-sep { color: var(--text-muted); font-size: 18px; }
 
-/* Products Area */
+/* ── Products Area ── */
 .products-area { min-width: 0; }
 
 .products-toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .product-count {
+  font-family: var(--font-body);
   font-size: 14px;
   color: var(--text-muted);
+}
+
+.product-count strong {
+  font-family: var(--font-sans);
+  color: var(--gold);
+  font-weight: 700;
 }
 
 .products-grid {

@@ -90,7 +90,7 @@ const Products = () => {
     <AdminLayout>
       {toast && (
         <div className="toast-container">
-          <div className="toast success"><span>✓ {toast}</span></div>
+          <div className="toast success"><span><i className="fa-solid fa-check"></i> {toast}</span></div>
         </div>
       )}
 
@@ -108,7 +108,7 @@ const Products = () => {
         <div className="admin-table-wrapper" style={{ marginBottom: 20 }}>
           <div style={{ padding: '14px 20px' }}>
             <div className="admin-search">
-              <span>🔍</span>
+              <span><i className="fa-solid fa-magnifying-glass"></i></span>
               <input
                 placeholder="Tìm sản phẩm..."
                 value={search}
@@ -156,7 +156,7 @@ const Products = () => {
                         {p.stock}
                       </span>
                     </td>
-                    <td>★ {p.rating} ({p.reviews})</td>
+                    <td><i className="fa-solid fa-star" style={{fontSize: 12, color: 'var(--gold)'}}></i> {p.rating} ({p.reviews})</td>
                     <td>
                       <div style={{ display: 'flex', gap: 4 }}>
                         {p.featured && <span className="badge badge-gold">Hot</span>}
@@ -170,14 +170,14 @@ const Products = () => {
                           onClick={() => openEdit(p)}
                           id={`edit-product-${p.id}`}
                         >
-                          ✏️ Sửa
+                          <i className="fa-solid fa-pen"></i> Sửa
                         </button>
                         <button
                           className="action-btn btn btn-danger btn-sm"
                           onClick={() => handleDelete(p)}
                           id={`delete-product-${p.id}`}
                         >
-                          🗑️
+                          <i className="fa-regular fa-trash-can"></i>
                         </button>
                       </div>
                     </td>

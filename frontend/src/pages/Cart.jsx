@@ -56,7 +56,7 @@ const Cart = () => {
       <div className="cart-page page-wrapper">
         <div className="container">
           <div className="order-success">
-            <div className="success-icon">🎉</div>
+            <div className="success-icon"><i className="fa-solid fa-circle-check" style={{color: '#43c6ac'}}></i></div>
             <h2>Đặt Hàng Thành Công!</h2>
             <p>Cảm ơn bạn đã mua sắm tại LUXE. Chúng tôi sẽ liên hệ xác nhận sớm nhất.</p>
             <div className="success-actions">
@@ -74,7 +74,7 @@ const Cart = () => {
       <div className="cart-page page-wrapper">
         <div className="container">
           <div className="empty-state" style={{ paddingTop: '120px' }}>
-            <div className="empty-state-icon">🛍️</div>
+            <div className="empty-state-icon"><i className="fa-solid fa-bag-shopping"></i></div>
             <h3>Giỏ hàng của bạn đang trống</h3>
             <p>Hãy khám phá bộ sưu tập thời trang của chúng tôi</p>
             <Link to="/shop" className="btn btn-primary btn-lg">Mua Sắm Ngay</Link>
@@ -114,7 +114,7 @@ const Cart = () => {
                   <button className="qty-btn" onClick={() => updateQuantity(item.id, item.quantity + 1)}>+</button>
                 </div>
                 <span className="cpi-total">{formatPrice(item.price * item.quantity)}</span>
-                <button className="cpi-remove" onClick={() => removeItem(item.id)}>✕</button>
+                <button className="cpi-remove" onClick={() => removeItem(item.id)}><i className="fa-solid fa-xmark"></i></button>
               </div>
             ))}
           </div>
@@ -186,12 +186,12 @@ const Cart = () => {
               disabled={placing}
               id="place-order-btn"
             >
-              {placing ? '⏳ Đang đặt hàng...' : isAuthenticated ? '✓ Đặt Hàng Ngay' : '🔐 Đăng nhập để đặt hàng'}
+              {placing ? <><i className="fa-solid fa-spinner fa-spin"></i> Đang đặt hàng...</> : isAuthenticated ? <><i className="fa-solid fa-check"></i> Đặt Hàng Ngay</> : <><i className="fa-solid fa-lock"></i> Đăng nhập để đặt hàng</>}
             </button>
 
             <div className="security-badges">
-              <span>🔒 Thanh toán an toàn</span>
-              <span>🔄 Đổi trả 30 ngày</span>
+              <span><i className="fa-solid fa-lock"></i> Thanh toán an toàn</span>
+              <span><i className="fa-solid fa-rotate-right"></i> Đổi trả 30 ngày</span>
             </div>
           </div>
         </div>

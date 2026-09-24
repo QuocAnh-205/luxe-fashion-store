@@ -12,7 +12,7 @@ const getDiscount = (price, original) =>
 const Stars = ({ rating }) => (
   <div className="stars">
     {[1,2,3,4,5].map(i => (
-      <span key={i} className={`star ${i <= Math.round(rating) ? '' : 'empty'}`}>★</span>
+      <i key={i} className={`fa-solid fa-star star ${i <= Math.round(rating) ? '' : 'empty'}`}></i>
     ))}
   </div>
 );
@@ -62,7 +62,7 @@ const ProductCard = ({ product }) => {
             onClick={handleQuickAdd}
             id={`quick-add-${product.id}`}
           >
-            {adding ? '✓ Đã thêm' : '🛍️ Thêm nhanh'}
+            {adding ? <><i className="fa-solid fa-check"></i> Đã thêm</> : <><i className="fa-solid fa-bag-shopping"></i> Thêm nhanh</>}
           </button>
         </div>
       </div>

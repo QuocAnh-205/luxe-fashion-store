@@ -1,0 +1,18 @@
+server {
+    listen ${PORT};
+    server_name _;
+
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Cho phép React Router (SPA) hoạt động khi reload trang con
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Cache tài nguyên tĩnh
+    location ~* \.(js|css|png|jpg|jpeg|gif|svg|ico|woff2?)$ {
+        expires 7d;
+        access_log off;
+    }
+}

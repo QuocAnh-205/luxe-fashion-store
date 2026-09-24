@@ -15,10 +15,10 @@ const AdminLayout = ({ children }) => {
   };
 
   const navItems = [
-    { to: '/admin', label: 'Dashboard', icon: '📊', exact: true },
-    { to: '/admin/users', label: 'Người dùng', icon: '👥' },
-    { to: '/admin/products', label: 'Sản phẩm', icon: '📦' },
-    { to: '/admin/orders', label: 'Đơn hàng', icon: '🛒' },
+    { to: '/admin', label: 'Dashboard', icon: <i className="fa-solid fa-chart-line"></i>, exact: true },
+    { to: '/admin/users', label: 'Người dùng', icon: <i className="fa-solid fa-users"></i> },
+    { to: '/admin/products', label: 'Sản phẩm', icon: <i className="fa-solid fa-box"></i> },
+    { to: '/admin/orders', label: 'Đơn hàng', icon: <i className="fa-solid fa-cart-shopping"></i> },
   ];
 
   const isActive = (to, exact) => exact
@@ -30,9 +30,9 @@ const AdminLayout = ({ children }) => {
       {/* Sidebar */}
       <aside className="admin-sidebar">
         <div className="admin-sidebar-header">
-          <Link to="/" className="admin-logo">✦ LUXE</Link>
+          <Link to="/" className="admin-logo"><i className="fa-solid fa-gem"></i> LUXE</Link>
           <button className="sidebar-toggle-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
-            {sidebarOpen ? '◀' : '▶'}
+            {sidebarOpen ? <i className="fa-solid fa-chevron-left"></i> : <i className="fa-solid fa-chevron-right"></i>}
           </button>
         </div>
 
@@ -60,11 +60,11 @@ const AdminLayout = ({ children }) => {
 
         <div className="admin-sidebar-footer">
           <Link to="/" className="admin-nav-item">
-            <span className="nav-icon">🏠</span>
+            <span className="nav-icon"><i className="fa-solid fa-house"></i></span>
             <span className="nav-label">Về trang chủ</span>
           </Link>
           <button className="admin-nav-item logout-btn" onClick={handleLogout}>
-            <span className="nav-icon">🚪</span>
+            <span className="nav-icon"><i className="fa-solid fa-arrow-right-from-bracket"></i></span>
             <span className="nav-label">Đăng xuất</span>
           </button>
         </div>

@@ -37,7 +37,7 @@ const CartSidebar = () => {
             id="cart-close-btn"
             aria-label="Đóng giỏ hàng"
           >
-            ✕
+            <i className="fa-solid fa-xmark"></i>
           </button>
         </div>
 
@@ -45,7 +45,7 @@ const CartSidebar = () => {
         <div className="cart-items">
           {items.length === 0 ? (
             <div className="cart-empty">
-              <div className="cart-empty-icon">🛍️</div>
+              <div className="cart-empty-icon"><i className="fa-solid fa-bag-shopping"></i></div>
               <h3>Giỏ hàng trống</h3>
               <p>Hãy khám phá bộ sưu tập của chúng tôi</p>
               <Link
@@ -91,7 +91,7 @@ const CartSidebar = () => {
                       onClick={() => removeItem(item.id)}
                       aria-label="Xóa"
                     >
-                      🗑️
+                      <i className="fa-regular fa-trash-can"></i>
                     </button>
                   </div>
                 </div>
@@ -107,13 +107,13 @@ const CartSidebar = () => {
               <span>Tạm tính:</span>
               <span className="subtotal-price">{formatPrice(totalPrice)}</span>
             </div>
-            <p className="cart-shipping">🚚 Miễn phí vận chuyển cho đơn &gt;500.000đ</p>
+            <p className="cart-shipping"><i className="fa-solid fa-truck"></i> Miễn phí vận chuyển cho đơn &gt;500.000đ</p>
             <button
               className="btn btn-primary btn-full btn-lg"
               onClick={handleCheckout}
               id="checkout-btn"
             >
-              Thanh Toán →
+              Thanh Toán <i className="fa-solid fa-arrow-right"></i>
             </button>
             <button
               className="btn btn-ghost btn-full"

@@ -61,7 +61,7 @@ const Profile = () => {
       {toast && (
         <div className="toast-container">
           <div className={`toast ${toast.type}`}>
-            <span>{toast.type === 'success' ? '✓' : '⚠️'} {toast.msg}</span>
+            <span>{toast.type === 'success' ? <i className="fa-solid fa-check"></i> : <i className="fa-solid fa-triangle-exclamation"></i>} {toast.msg}</span>
           </div>
         </div>
       )}
@@ -75,7 +75,7 @@ const Profile = () => {
               <h3 className="profile-name">{user?.name}</h3>
               <p className="profile-email">{user?.email}</p>
               <span className={`badge ${user?.role === 'admin' ? 'badge-gold' : 'badge-gray'}`}>
-                {user?.role === 'admin' ? '⚙️ Admin' : '👤 Thành viên'}
+                {user?.role === 'admin' ? <><i className="fa-solid fa-gear"></i> Admin</> : <><i className="fa-regular fa-user"></i> Thành viên</>}
               </span>
             </div>
             <nav className="profile-nav">
@@ -84,21 +84,21 @@ const Profile = () => {
                 onClick={() => setTab('info')}
                 id="tab-info"
               >
-                👤 Thông tin cá nhân
+                <i className="fa-regular fa-user"></i> Thông tin cá nhân
               </button>
               <button
                 className={`profile-nav-btn ${tab === 'orders' ? 'active' : ''}`}
                 onClick={() => setTab('orders')}
                 id="tab-orders"
               >
-                📦 Đơn hàng của tôi
+                <i className="fa-solid fa-box"></i> Đơn hàng của tôi
               </button>
               <button
                 className={`profile-nav-btn ${tab === 'password' ? 'active' : ''}`}
                 onClick={() => setTab('password')}
                 id="tab-password"
               >
-                🔒 Đổi mật khẩu
+                <i className="fa-solid fa-lock"></i> Đổi mật khẩu
               </button>
             </nav>
           </aside>
@@ -146,7 +146,7 @@ const Profile = () => {
                     />
                   </div>
                   <button type="submit" className="btn btn-primary" disabled={saving} id="save-profile-btn">
-                    {saving ? '⏳ Đang lưu...' : '✓ Lưu thay đổi'}
+                    {saving ? <><i className="fa-solid fa-spinner fa-spin"></i> Đang lưu...</> : <><i className="fa-solid fa-check"></i> Lưu thay đổi</>}
                   </button>
                 </form>
               </div>
@@ -178,7 +178,7 @@ const Profile = () => {
                     />
                   </div>
                   <button type="submit" className="btn btn-primary" disabled={saving} id="save-password-btn">
-                    {saving ? '⏳ Đang lưu...' : '🔒 Cập nhật mật khẩu'}
+                    {saving ? <><i className="fa-solid fa-spinner fa-spin"></i> Đang lưu...</> : <><i className="fa-solid fa-lock"></i> Cập nhật mật khẩu</>}
                   </button>
                 </form>
               </div>
@@ -189,7 +189,7 @@ const Profile = () => {
                 <h2>Đơn Hàng Của Tôi</h2>
                 {orders.length === 0 ? (
                   <div className="empty-state">
-                    <div className="empty-state-icon">📦</div>
+                    <div className="empty-state-icon"><i className="fa-solid fa-box"></i></div>
                     <h3>Chưa có đơn hàng nào</h3>
                     <p>Hãy bắt đầu mua sắm để xem lịch sử đơn hàng</p>
                   </div>

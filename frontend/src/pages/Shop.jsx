@@ -66,8 +66,8 @@ const Shop = () => {
       {/* Header */}
       <div className="shop-header">
         <div className="container">
-          <h1 className="shop-title">Bộ Sưu Tập</h1>
-          <p className="shop-subtitle">Khám phá {total} sản phẩm thời trang cao cấp</p>
+          <h1 className="shop-title">Bộ Sưu Tập 2026</h1>
+          <p className="shop-subtitle">Khám phá {total} sản phẩm thời trang cao cấp mới nhất</p>
 
           {/* Search */}
           <form className="shop-search" onSubmit={handleSearch} id="shop-search-form">
@@ -80,7 +80,7 @@ const Shop = () => {
               defaultValue={search}
             />
             <button type="submit" className="btn btn-primary search-btn" id="search-submit">
-              🔍 Tìm kiếm
+              <i className="fa-solid fa-magnifying-glass"></i> Tìm kiếm
             </button>
           </form>
         </div>
@@ -169,7 +169,7 @@ const Shop = () => {
             </div>
           ) : products.length === 0 ? (
             <div className="empty-state">
-              <div className="empty-state-icon">🔍</div>
+              <div className="empty-state-icon"><i className="fa-solid fa-magnifying-glass"></i></div>
               <h3>Không tìm thấy sản phẩm</h3>
               <p>Thử thay đổi bộ lọc hoặc từ khóa tìm kiếm</p>
               <button className="btn btn-primary" onClick={() => setSearchParams({})}>

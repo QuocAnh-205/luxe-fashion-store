@@ -11,7 +11,7 @@ const formatPrice = (p) =>
 const Stars = ({ rating }) => (
   <div className="stars">
     {[1,2,3,4,5].map(i => (
-      <span key={i} className={`star ${i <= Math.round(rating) ? '' : 'empty'}`}>★</span>
+      <i key={i} className={`fa-solid fa-star star ${i <= Math.round(rating) ? '' : 'empty'}`}></i>
     ))}
     <span className="rating-text">{rating} ({0} đánh giá)</span>
   </div>
@@ -83,9 +83,9 @@ const ProductDetail = () => {
         {/* Breadcrumb */}
         <nav className="breadcrumb" aria-label="breadcrumb">
           <button className="crumb" onClick={() => navigate('/')}>Trang chủ</button>
-          <span>›</span>
+          <i className="fa-solid fa-chevron-right" style={{fontSize: '0.8em', margin: '0 8px', color: '#999'}}></i>
           <button className="crumb" onClick={() => navigate('/shop')}>Bộ sưu tập</button>
-          <span>›</span>
+          <i className="fa-solid fa-chevron-right" style={{fontSize: '0.8em', margin: '0 8px', color: '#999'}}></i>
           <span className="crumb active">{product.name}</span>
         </nav>
 
@@ -203,7 +203,7 @@ const ProductDetail = () => {
                 id="add-to-cart-btn"
                 style={{ flex: 1 }}
               >
-                {adding ? '✓ Đã thêm!' : '🛍️ Thêm vào giỏ'}
+                {adding ? <><i className="fa-solid fa-check"></i> Đã thêm!</> : <><i className="fa-solid fa-bag-shopping"></i> Thêm vào giỏ</>}
               </button>
               <button
                 className="btn btn-outline btn-lg"
@@ -219,9 +219,9 @@ const ProductDetail = () => {
 
             {/* Features */}
             <div className="detail-features">
-              <div className="feat-item"><span>🚚</span> Miễn phí ship đơn &gt; 500k</div>
-              <div className="feat-item"><span>🔄</span> Đổi trả miễn phí 30 ngày</div>
-              <div className="feat-item"><span>💎</span> Hàng chính hãng 100%</div>
+              <div className="feat-item"><i className="fa-solid fa-truck"></i> Miễn phí ship đơn &gt; 500k</div>
+              <div className="feat-item"><i className="fa-solid fa-rotate-right"></i> Đổi trả miễn phí 30 ngày</div>
+              <div className="feat-item"><i className="fa-solid fa-gem"></i> Hàng chính hãng 100%</div>
             </div>
           </div>
         </div>

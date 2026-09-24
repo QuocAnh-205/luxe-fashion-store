@@ -72,7 +72,7 @@ const Users = () => {
       {toast && (
         <div className="toast-container">
           <div className={`toast ${toast.type}`}>
-            <span>{toast.type === 'success' ? '✓' : '⚠️'} {toast.msg}</span>
+            <span>{toast.type === 'success' ? <i className="fa-solid fa-check"></i> : <i className="fa-solid fa-triangle-exclamation"></i>} {toast.msg}</span>
           </div>
         </div>
       )}
@@ -89,7 +89,7 @@ const Users = () => {
         <div className="admin-table-wrapper" style={{ marginBottom: 24 }}>
           <div style={{ padding: '16px 20px', display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
             <div className="admin-search">
-              <span>🔍</span>
+              <span><i className="fa-solid fa-magnifying-glass"></i></span>
               <input
                 type="text"
                 placeholder="Tìm theo tên, email..."
@@ -159,7 +159,7 @@ const Users = () => {
                       <td>{user.email}</td>
                       <td>
                         <span className={`badge ${user.role === 'admin' ? 'badge-gold' : 'badge-gray'}`}>
-                          {user.role === 'admin' ? '⚙️ Admin' : '👤 User'}
+                          {user.role === 'admin' ? <><i className="fa-solid fa-gear"></i> Admin</> : <><i className="fa-regular fa-user"></i> User</>}
                         </span>
                       </td>
                       <td>
@@ -175,7 +175,7 @@ const Users = () => {
                             onClick={() => handleToggleBan(user)}
                             id={`ban-user-${user.id}`}
                           >
-                            {user.status === 'banned' ? '✓ Mở khóa' : '🔒 Khóa'}
+                            {user.status === 'banned' ? <><i className="fa-solid fa-unlock"></i> Mở khóa</> : <><i className="fa-solid fa-lock"></i> Khóa</>}
                           </button>
                           {user.role !== 'admin' && (
                             <button
@@ -183,7 +183,7 @@ const Users = () => {
                               onClick={() => handleDelete(user)}
                               id={`delete-user-${user.id}`}
                             >
-                              🗑️
+                              <i className="fa-regular fa-trash-can"></i>
                             </button>
                           )}
                         </div>
@@ -200,7 +200,7 @@ const Users = () => {
             <div className="admin-table-wrapper" style={{ height: 'fit-content', position: 'sticky', top: 24 }}>
               <div className="admin-table-header">
                 <h3>Chi tiết người dùng</h3>
-                <button className="btn btn-ghost btn-sm" onClick={() => setSelectedUser(null)}>✕</button>
+                <button className="btn btn-ghost btn-sm" onClick={() => setSelectedUser(null)}><i className="fa-solid fa-xmark"></i></button>
               </div>
               <div style={{ padding: 24 }}>
                 <div style={{ textAlign: 'center', marginBottom: 20 }}>
