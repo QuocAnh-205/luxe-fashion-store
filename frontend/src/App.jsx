@@ -19,6 +19,7 @@ import Dashboard from './pages/admin/Dashboard';
 import Users from './pages/admin/Users';
 import Products from './pages/admin/Products';
 import Orders from './pages/admin/Orders';
+import Settings from './pages/admin/Settings';
 
 // Protected Route
 const ProtectedRoute = ({ children, requireAdmin = false }) => {
@@ -94,6 +95,7 @@ function AppRoutes() {
       <Route path="/admin/users" element={<AdminRoute element={<Users />} />} />
       <Route path="/admin/products" element={<AdminRoute element={<Products />} />} />
       <Route path="/admin/orders" element={<AdminRoute element={<Orders />} />} />
+      <Route path="/admin/settings" element={<AdminRoute element={<Settings />} />} />
 
       {/* Catch all */}
       <Route path="*" element={<Navigate to="/" replace />} />

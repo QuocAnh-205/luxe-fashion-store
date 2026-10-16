@@ -2,39 +2,123 @@
   "users": [
     {
       "id": "u1",
-      "name": "Admin",
+      "name": "Admin Quản Trị",
       "email": "admin@fashion.com",
-      "password": "$2a$10$CHSe82CTohrzSD6W5IxnmuE9xkJr37hIYo4WuXGIE.O78Y5jLcxE.",
+      "password": ".O78Y5jLcxE.",
       "role": "admin",
-      "avatar": "https://ui-avatars.com/api/?name=Admin&background=d4af37&color=fff",
+      "avatar": "https://ui-avatars.com/api/?name=Admin+Quan+Tri&background=d4af37&color=fff",
       "phone": "0901234567",
-      "address": "123 Admin St, Ho Chi Minh City",
+      "address": "123 Đồng Khởi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
       "status": "active",
-      "createdAt": "2024-01-01T00:00:00.000Z"
+      "createdAt": "2024-01-01T08:00:00.000Z"
     },
     {
       "id": "u2",
-      "name": "Nguyen Van A",
+      "name": "Nguyễn Văn An",
       "email": "user@fashion.com",
-      "password": "$2a$10$jJ1.yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
       "role": "user",
-      "avatar": "https://ui-avatars.com/api/?name=Nguyen+Van+A&background=6c63ff&color=fff",
+      "avatar": "https://ui-avatars.com/api/?name=Nguyen+Van+An&background=6c63ff&color=fff",
       "phone": "0912345678",
-      "address": "456 User Ave, Ha Noi",
+      "address": "456 Hai Bà Trưng, Phường Tân Định, Quận 1, TP. Hồ Chí Minh",
       "status": "active",
-      "createdAt": "2024-01-15T00:00:00.000Z"
+      "createdAt": "2024-01-15T09:30:00.000Z"
     },
     {
       "id": "u3",
-      "name": "Tran Thi B",
+      "name": "Trần Thị Bích",
       "email": "tranthi@example.com",
-      "password": "$2a$10$jJ1.yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
       "role": "user",
-      "avatar": "https://ui-avatars.com/api/?name=Tran+Thi+B&background=ff6584&color=fff",
+      "avatar": "https://ui-avatars.com/api/?name=Tran+Thi+Bich&background=ff6584&color=fff",
       "phone": "0923456789",
-      "address": "789 Example Rd, Da Nang",
+      "address": "789 Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",
       "status": "active",
-      "createdAt": "2024-02-01T00:00:00.000Z"
+      "createdAt": "2024-02-01T14:20:00.000Z"
+    },
+    {
+      "id": "u4",
+      "name": "Lê Hoàng Nam",
+      "email": "lehoangnam@gmail.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Le+Hoang+Nam&background=4ade80&color=fff",
+      "phone": "0934567890",
+      "address": "12 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+      "status": "active",
+      "createdAt": "2024-02-18T10:15:00.000Z"
+    },
+    {
+      "id": "u5",
+      "name": "Phạm Minh Tuấn",
+      "email": "minhtuan.pham@outlook.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Pham+Minh+Tuan&background=38bdf8&color=fff",
+      "phone": "0945678901",
+      "address": "88 Trần Phú, Phường Hải Châu 1, Quận Hải Châu, Đà Nẵng",
+      "status": "active",
+      "createdAt": "2024-03-05T16:45:00.000Z"
+    },
+    {
+      "id": "u6",
+      "name": "Đỗ Thu Hà",
+      "email": "thuha.fashion@gmail.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Do+Thu+Ha&background=f43f5e&color=fff",
+      "phone": "0956789012",
+      "address": "24 Bà Triệu, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",
+      "status": "active",
+      "createdAt": "2024-03-22T11:00:00.000Z"
+    },
+    {
+      "id": "u7",
+      "name": "Vũ Đức Thắng",
+      "email": "ducthang.vu@yahoo.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Vu+Duc+Thang&background=a855f7&color=fff",
+      "phone": "0967890123",
+      "address": "105 Lê Duẩn, Phường Chính Gián, Quận Thanh Khê, Đà Nẵng",
+      "status": "banned",
+      "createdAt": "2024-04-10T13:30:00.000Z"
+    },
+    {
+      "id": "u8",
+      "name": "Hoàng Kim Ngân",
+      "email": "kimngan.luxury@gmail.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Hoang+Kim+Ngan&background=fbbf24&color=fff",
+      "phone": "0978901234",
+      "address": "54 Thảo Điền, Phường Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh",
+      "status": "active",
+      "createdAt": "2024-05-02T08:15:00.000Z"
+    },
+    {
+      "id": "u9",
+      "name": "Bùi Quang Huy",
+      "email": "huybui.designer@gmail.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Bui+Quang+Huy&background=14b8a6&color=fff",
+      "phone": "0989012345",
+      "address": "200 Nguyễn Thị Minh Khai, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh",
+      "status": "active",
+      "createdAt": "2024-05-20T17:10:00.000Z"
+    },
+    {
+      "id": "u10",
+      "name": "Đặng Mai Linh",
+      "email": "mailinh.dang@gmail.com",
+      "password": ".yQmNLGMIiSG8Buo86eDen2xcLhYwqV82kvn6IV0TTzWnCD6Am",
+      "role": "user",
+      "avatar": "https://ui-avatars.com/api/?name=Dang+Mai+Linh&background=ec4899&color=fff",
+      "phone": "0990123456",
+      "address": "67 Lý Thường Kiệt, Phường Vạn Thắng, TP. Nha Trang, Khánh Hòa",
+      "status": "active",
+      "createdAt": "2024-06-12T09:00:00.000Z"
     }
   ],
   "products": [
@@ -1085,7 +1169,7 @@
   ],
   "orders": [
     {
-      "id": "a7c22749-c97d-4078-87dd-a30bf04c62d8",
+      "id": "ORD-2026-001",
       "userId": "u2",
       "items": [
         {
@@ -1099,9 +1183,258 @@
       ],
       "total": 2100000,
       "status": "pending",
-      "address": "456 User Ave, Ha Noi",
+      "address": "456 Hai Bà Trưng, Phường Tân Định, Quận 1, TP. Hồ Chí Minh",
       "phone": "0912345678",
-      "createdAt": "2026-09-24T18:26:05.901Z"
+      "paymentMethod": "COD",
+      "notes": "Giao hàng giờ hành chính",
+      "createdAt": "2026-10-15T14:26:00.000Z"
+    },
+    {
+      "id": "ORD-2026-002",
+      "userId": "u3",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Áo Thời Trang Cấp Độ 1",
+          "price": 2200000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Black"
+        },
+        {
+          "productId": "p5",
+          "name": "Áo Thời Trang Cấp Độ 5",
+          "price": 1800000,
+          "quantity": 1,
+          "size": "L",
+          "color": "White"
+        }
+      ],
+      "total": 4000000,
+      "status": "shipping",
+      "address": "789 Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",
+      "phone": "0923456789",
+      "paymentMethod": "Chuyển khoản ngân hàng",
+      "notes": "Gọi trước khi giao 15 phút",
+      "createdAt": "2026-10-14T10:15:00.000Z"
+    },
+    {
+      "id": "ORD-2026-003",
+      "userId": "u4",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Váy Thời Trang Cấp Độ 1",
+          "price": 1700000,
+          "quantity": 1,
+          "size": "S",
+          "color": "Beige"
+        },
+        {
+          "productId": "p3",
+          "name": "Áo Thời Trang Cấp Độ 3",
+          "price": 1800000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Navy"
+        }
+      ],
+      "total": 3500000,
+      "status": "delivered",
+      "address": "12 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+      "phone": "0934567890",
+      "paymentMethod": "Thẻ tín dụng (Visa)",
+      "notes": "Để ở sảnh lễ tân nếu không có nhà",
+      "createdAt": "2026-10-12T09:00:00.000Z"
+    },
+    {
+      "id": "ORD-2026-004",
+      "userId": "u5",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "Áo Thời Trang Cấp Độ 4",
+          "price": 1400000,
+          "quantity": 1,
+          "size": "L",
+          "color": "Black"
+        }
+      ],
+      "total": 1400000,
+      "status": "delivered",
+      "address": "88 Trần Phú, Phường Hải Châu 1, Quận Hải Châu, Đà Nẵng",
+      "phone": "0945678901",
+      "paymentMethod": "COD",
+      "notes": "",
+      "createdAt": "2026-10-10T15:40:00.000Z"
+    },
+    {
+      "id": "ORD-2026-005",
+      "userId": "u6",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Áo Thời Trang Cấp Độ 2",
+          "price": 2000000,
+          "quantity": 1,
+          "size": "M",
+          "color": "White"
+        },
+        {
+          "productId": "p8",
+          "name": "Váy Thời Trang Cấp Độ 2",
+          "price": 900000,
+          "quantity": 1,
+          "size": "S",
+          "color": "Floral"
+        },
+        {
+          "productId": "p10",
+          "name": "Váy Thời Trang Cấp Độ 4",
+          "price": 1000000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Red"
+        }
+      ],
+      "total": 3900000,
+      "status": "pending",
+      "address": "24 Bà Triệu, Phường Hàng Bài, Quận Hoàn Kiếm, Hà Nội",
+      "phone": "0956789012",
+      "paymentMethod": "Chuyển khoản VNPay",
+      "notes": "Gói hàng cẩn thận làm quà tặng",
+      "createdAt": "2026-10-16T08:30:00.000Z"
+    },
+    {
+      "id": "ORD-2026-006",
+      "userId": "u7",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Áo Thời Trang Cấp Độ 1",
+          "price": 2200000,
+          "quantity": 1,
+          "size": "XL",
+          "color": "Black"
+        }
+      ],
+      "total": 2200000,
+      "status": "cancelled",
+      "address": "105 Lê Duẩn, Phường Chính Gián, Quận Thanh Khê, Đà Nẵng",
+      "phone": "0967890123",
+      "paymentMethod": "COD",
+      "notes": "Khách đổi ý muốn đổi sang mẫu khác",
+      "createdAt": "2026-10-08T11:20:00.000Z"
+    },
+    {
+      "id": "ORD-2026-007",
+      "userId": "u8",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Áo Thời Trang Cấp Độ 1",
+          "price": 2200000,
+          "quantity": 2,
+          "size": "M",
+          "color": "Gold Edition"
+        },
+        {
+          "productId": "p10",
+          "name": "Váy Thời Trang Cấp Độ 4",
+          "price": 1000000,
+          "quantity": 1,
+          "size": "S",
+          "color": "Emerald"
+        }
+      ],
+      "total": 5400000,
+      "status": "delivered",
+      "address": "54 Thảo Điền, Phường Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh",
+      "phone": "0978901234",
+      "paymentMethod": "Thẻ tín dụng (Mastercard)",
+      "notes": "Khách hàng VIP, giao nhanh trong ngày",
+      "createdAt": "2026-10-05T13:45:00.000Z"
+    },
+    {
+      "id": "ORD-2026-008",
+      "userId": "u9",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "Áo Thời Trang Cấp Độ 3",
+          "price": 1800000,
+          "quantity": 1,
+          "size": "L",
+          "color": "Navy"
+        }
+      ],
+      "total": 1800000,
+      "status": "shipping",
+      "address": "200 Nguyễn Thị Minh Khai, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh",
+      "phone": "0989012345",
+      "paymentMethod": "COD",
+      "notes": "",
+      "createdAt": "2026-10-15T16:10:00.000Z"
+    },
+    {
+      "id": "ORD-2026-009",
+      "userId": "u10",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Áo Thời Trang Cấp Độ 2",
+          "price": 2000000,
+          "quantity": 1,
+          "size": "S",
+          "color": "White"
+        },
+        {
+          "productId": "p8",
+          "name": "Váy Thời Trang Cấp Độ 2",
+          "price": 900000,
+          "quantity": 1,
+          "size": "S",
+          "color": "Pastel"
+        }
+      ],
+      "total": 2900000,
+      "status": "delivered",
+      "address": "67 Lý Thường Kiệt, Phường Vạn Thắng, TP. Nha Trang, Khánh Hòa",
+      "phone": "0990123456",
+      "paymentMethod": "Chuyển khoản MoMo",
+      "notes": "Giao buổi sáng",
+      "createdAt": "2026-10-01T10:05:00.000Z"
+    },
+    {
+      "id": "ORD-2026-010",
+      "userId": "u4",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Váy Thời Trang Cấp Độ 1",
+          "price": 1700000,
+          "quantity": 1,
+          "size": "M",
+          "color": "Black"
+        }
+      ],
+      "total": 1700000,
+      "status": "pending",
+      "address": "12 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+      "phone": "0934567890",
+      "paymentMethod": "COD",
+      "notes": "Liên hệ trước khi tới",
+      "createdAt": "2026-10-16T12:00:00.000Z"
     }
-  ]
+  ],
+  "settings": {
+    "storeName": "LUXE Fashion",
+    "hotline": "1900 8888",
+    "email": "contact@fashion.com",
+    "address": "123 Đồng Khởi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "announcement": "✨ Khuyến mãi Mùa Thu: Giảm đến 30% cho bộ sưu tập Luxury mới! Miễn phí giao hàng toàn quốc đơn từ 2.000.000đ",
+    "shippingFee": 30000,
+    "freeShippingThreshold": 2000000,
+    "currency": "VND"
+  }
 }
