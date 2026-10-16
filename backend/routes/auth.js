@@ -66,11 +66,12 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({ message: 'Email and password are required' });
     }
 
+    const cleanEmail = email.trim().toLowerCase();
     const db = readDB();
-    const user = db.users.find(u => u.email === email);
+    const user = db.users.find(u => u.email.toLowerCase() === cleanEmail);
 
     if (!user) {
-      return res.status(401).json({ message: 'Invalid email or password' });
+      return res.status(401).json({ message: 'Email hoặc mật khẩu không chính xác' });
     }
 
     if (user.status === 'banned') {
